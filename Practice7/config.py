@@ -5,3 +5,4 @@ def load_config():
         'user': 'postgres',
         'password': 'Reldos02'
     }
+#

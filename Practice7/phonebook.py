@@ -92,7 +92,7 @@ def search_by_name(name):
 
     cur.close()
     conn.close()
-
+#
 
 def delete_contact(name):
     conn = connect()
