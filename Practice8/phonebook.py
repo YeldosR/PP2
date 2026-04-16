@@ -15,7 +15,7 @@ def upsert(name, phone):
     conn = connect()
     cur = conn.cursor()
     try:
-        # Добавляем явное приведение типов прямо в запрос
+        
         cur.execute("CALL upsert_contact(%s::text, %s::text)", (name, phone))
         conn.commit()
         print(f"Успешно: {name} обновлен/добавлен.")
