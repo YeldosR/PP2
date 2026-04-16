@@ -12,7 +12,7 @@ print("Filter (evens):", evens)
 total = reduce(lambda x, y: x + y, numbers)
 print("Reduce (sum):", total)
 
-
+#
 value = "123"
 print("Type before:", type(value))
 
