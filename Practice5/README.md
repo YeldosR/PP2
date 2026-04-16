@@ -9,8 +9,3 @@ This project parses raw receipt text using Python and regex.
 - Extract date & time
 - Detect payment method
 - Output structured JSON
-
-## Usage
-
-```bash
-python receipt_parser.py
