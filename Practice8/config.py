@@ -4,4 +4,4 @@ def load_config():
         'database': 'phonebook',
         'user': 'postgres',
         'password': 'Reldos02'
-    }
+    }#
