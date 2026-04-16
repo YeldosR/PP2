@@ -35,4 +35,4 @@ if __name__ == "__main__":
 
     d1 = datetime(2024, 1, 1)
     d2 = datetime(2024, 1, 2)
-    print("Seconds diff:", diff_seconds(d1, d2))
+    print("Seconds diff:", diff_seconds(d1, d2))#

@@ -10,7 +10,7 @@ def area_trapezoid(h, a, b):
 
 def area_regular_polygon(n, s):
     return (n * s * s) / (4 * math.tan(math.pi / n))
-
+#
 
 def area_parallelogram(base, height):
     return base * height
