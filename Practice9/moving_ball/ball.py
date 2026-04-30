@@ -13,7 +13,7 @@ class Ball:
         new_x = self.x + dx * self.speed
         new_y = self.y + dy * self.speed
 
-        # boundary check
+    
         if self.radius <= new_x <= self.screen_width - self.radius:
             self.x = new_x
         if self.radius <= new_y <= self.screen_height - self.radius:
